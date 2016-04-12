@@ -1,0 +1,396 @@
+
+@font-face {
+    font-family: ArialNarrow; /* Имя шрифта */
+    src: url(../fonts/ArialNarrow.ttf); /* Путь к файлу со шрифтом */
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    width: 1600px;
+    height: 1535px;
+    margin: 0 auto;
+}
+
+.header {
+    background: linear-gradient(to top, #f0f2f6, #c8d1e6);
+    height: 89px;
+    box-shadow: 0px 3px 7.36px 0.64px rgba(11, 43, 104, 0.75);
+
+}
+
+.picture {
+    height: 498px;
+    background: url("picture.jpg");
+
+}
+
+.center {
+    height: 825px;
+    background: #dbdfeb;
+    border: solid white;
+    border-width: 2px 0 1px;
+}
+
+.footer {
+    height: 120px;
+    background: #717897;
+}
+
+
+
+.corp {
+    font-family: Arial;
+    color:  #7486b1;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: -0.9px;
+    text-align: left;
+    text-shadow: 0px 1px 1.96px #ffffff;
+    line-height: 37px;
+    padding-top: 13px;
+    margin-left: 321px;
+
+
+
+}
+
+.Busines{
+    font-family: Arial;
+    color:  #3d5ba4;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 0px;
+    padding-top: 13px;
+    margin-top: 0;
+    margin-left: 323px;
+
+
+}
+
+.home {
+    font-family: Arial;
+    color:  #2f57a1;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.3em 0;
+    border: 1px solid transparent;
+    width: 67px;
+    height: 16px;
+    border-radius: 20px/15px;
+    float: left;
+    position: relative;
+    bottom: 30px;
+    left: 744px;
+
+}
+
+.home:hover {
+    font-family: Arial;
+    color:  #000000;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.35);
+    padding: 0.3em 0;
+    border: 1px solid transparent;
+    width: 67px;
+    height: 16px;
+    border-radius: 20px/15px;
+    background: linear-gradient(to top, #c8cbd0, #f8f7ff);
+}
+
+.services{
+    font-family: Arial;
+    color:  #2f57a1;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.3em 0;
+    border: 1px solid transparent;
+    width: 67px;
+    height: 16px;
+    border-radius: 20px/15px;
+    float: left;
+    position: relative;
+    bottom: 30px;
+    left: 757px;
+
+}
+.services:hover {
+    font-family: Arial;
+    color:  #000000;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.35);
+    padding: 0.3em 0;
+    border: 1px solid transparent;
+    width: 67px;
+    height: 16px;
+    border-radius: 20px/15px;
+    background: linear-gradient(to top, #c8cbd0, #f8f7ff);
+
+}
+
+.portfolio{
+    font-family: Arial;
+    color:  #2f57a1;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.3em 0;
+    border: 1px solid transparent;
+    width: 67px;
+    height: 16px;
+    border-radius: 20px/15px;
+    float: left;
+    position: relative;
+    bottom: 30px;
+    left: 782px;
+
+}
+
+.portfolio:hover {
+    font-family: Arial;
+    color:  #000000;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.35);
+    padding: 0.3em 0;
+    border: 1px solid transparent;
+    width: 67px;
+    height: 16px;
+    border-radius: 20px/15px;
+    background: linear-gradient(to top, #c8cbd0, #f8f7ff);
+}
+
+.testimonial{
+    font-family: Arial;
+    color:  #2f57a1;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.3em 0;
+    border: 1px solid transparent;
+    width: 72px;
+    height: 16px;
+    border-radius: 20px/15px;
+    float: left;
+    position: relative;
+    bottom: 30px;
+    left: 814px;
+
+}
+.testimonial:hover {
+    font-family: Arial;
+    color:  #000000;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.35);
+    padding: 0.3em 0;
+    border: 1px solid transparent;
+    width: 72px;
+    height: 16px;
+    border-radius: 20px/15px;
+    background: linear-gradient(to top, #c8cbd0, #f8f7ff);
+}
+
+.blog{
+    font-family: Arial;
+    color:  #2f57a1;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.3em 0;
+    border: 1px solid transparent;
+    width: 67px;
+    height: 16px;
+    border-radius: 20px/15px;
+    float: left;
+    position: relative;
+    bottom: 30px;
+    left: 832px;
+
+}
+
+.blog:hover {
+    font-family: Arial;
+    color:  #000000;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.35);
+    padding: 0.3em 0;
+    border: 1px solid transparent;
+    width: 67px;
+    height: 16px;
+    border-radius: 20px/15px;
+    background: linear-gradient(to top, #c8cbd0, #f8f7ff);
+}
+
+
+.contact{
+    font-family: Arial;
+    color:  #2f57a1;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.3em 0;
+    border: 1px solid transparent;
+    width: 70px;
+    height: 16px;
+    border-radius: 20px/15px;
+    float: left;
+    position: relative;
+    bottom: 30px;
+    left: 848px;
+
+}
+
+.contact:hover {
+    font-family: Arial;
+    color:  #000000;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.35);
+    padding: 0.3em 0;
+    border: 1px solid transparent;
+    width: 70px;
+    height: 16px;
+    border-radius: 20px/15px;
+    background: linear-gradient(to top, #c8cbd0, #f8f7ff);
+}
+
+/*центральный блок*/
+
+.your {
+    height: 123px;
+    width: 1026px;
+   /* outline: 1px solid #000000;*/
+    margin-left: 287px;
+
+}
+
+.lin {
+    margin-top: 123px;
+}
+
+.wecan {
+    font-family: Arial;
+    color:  #132345;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    margin-left: 320px;
+    margin-top: -104px;
+}
+
+.grad {
+    width: 1200px;
+    height: 80px;
+  /*outline: 1px solid #000000;*/
+    margin-top: -86px;
+
+    background: -webkit-radial-gradient(top, #ffffff, #dbdfeb, transparent);
+
+   }
+.your_website{
+    background-image: url(buttom.png);
+    height: 101px;
+    width: 345px;
+    margin-left: 943px;
+    margin-top: -72px;
+
+
+
+}
+
+.your_website:active {
+    background-image: url(buttom.png);
+    height: 101px;
+    width: 345px;
+    margin-left: 944px;
+    margin-top: -71px;
+
+
+}
+
+.your_website:active .lets {
+     color: #ff1c1c;
+
+
+ }
+
+.your_website:active .website {
+    color: #ff1c1c;
+
+
+}
+
+.lets {
+     font-family: ArialNarrow;
+    color:  #ffffff;
+    font-size: 25px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 34px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    text-shadow: 1px 2px 1.96px rgba(47, 85, 159, 0.75);
+    margin-left: 101px;
+    padding-top: 19px;
+
+
+}
+
+/*.lets:active {
+    font-family: ArialNarrow;
+    color: #ff1c1c;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    text-shadow: 1px 2px 1.96px rgba(47, 85, 159, 0.75);
+    margin-left: 101px;
+    padding-top: 19px;
+
+
+}
+*/
+
+.website {
+    font-family: ArialNarrow;
+    color:  #ffffff;
+    font-size: 35px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 34px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    text-shadow: 1px 2px 1.96px rgba(47, 85, 159, 0.75);
+    margin-left: 102px;
+    margin-top: -1px;
+
+}
+/*
+.website:active {
+    font-family: ArialNarrow;
+    color:  #ff1c1c;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    text-shadow: 1px 2px 1.96px rgba(47, 85, 159, 0.75);
+    margin-left: 102px;
+    margin-top: -1px;
+
+}
+*/
